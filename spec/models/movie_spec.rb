@@ -34,6 +34,7 @@ describe 'Movie' do
     end
 
     it 'has an in theaters flag' do
+      # binding.pry
       movie.in_theaters = false
       expect(movie.in_theaters?).to be_falsey
     end
